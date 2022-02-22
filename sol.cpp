@@ -14,7 +14,7 @@ int main() {
 		// r r r r r r r r
 		// n n   i   i   i
 	
-	  // only infected people:
+	  	// only infected people:
 		// r r r r r
 		// i   i   i
 		cout << (x - y) + (y != x ? 2 * y : 2 * y - 1) << '\n';
